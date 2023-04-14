@@ -6,7 +6,7 @@ Reset the customization options for a check to defaults
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/checks-reset@v4.21.0
+- uses: liquibase-github-actions/checks-reset@v4.21.1
   with:
     # Name of check to reset
     # string
@@ -35,7 +35,7 @@ The liquibase checks reset action accepts all valid liquibase global options as 
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/checks-reset@v4.21.0
+  - uses: liquibase-github-actions/checks-reset@v4.21.1
     with:
       checkName: ""
       headless: true
